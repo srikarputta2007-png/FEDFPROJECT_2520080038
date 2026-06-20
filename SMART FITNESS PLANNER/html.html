@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Smart Fitness Planner</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🏋 Smart Fitness Planner</h1>
+
+<div id="formSection">
+
+<input type="text" id="name" placeholder="Enter Name">
+
+<input type="number" id="age" placeholder="Enter Age">
+
+<input type="number" id="weight" placeholder="Weight (kg)">
+
+<input type="number" id="height" placeholder="Height (cm)">
+
+<button onclick="start()">Start Fitness Plan</button>
+
+</div>
+
+
+<div id="options" class="hidden">
+
+<h2>Hello <span id="username"></span> 💪</h2>
+
+<div class="btnBox">
+
+<button onclick="showBMI()">BMI</button>
+
+<button onclick="showWorkout()">Workout</button>
+
+<button onclick="showDiet()">Diet</button>
+
+<button onclick="showProgress()">Progress</button>
+
+</div>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
